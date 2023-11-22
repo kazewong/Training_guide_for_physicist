@@ -10,6 +10,7 @@ theme:
         - navigation  # Sections are included in the navigation on the left.
         - toc  # Table of contents is integrated on the left; does not appear separately on the right.
         - header.autohide  # header disappears as you scroll
+        - navigation.expand
     palette:
         # Light mode / dark mode
         # We deliberately don't automatically use `media` to check a user's preferences. We default to light mode as
@@ -71,3 +72,26 @@ extra_css:
 
 nav:
     - Home: index.md
+    - Mathematics: 
+      - Analysis:
+        - Mathematics/Calculus/Calculus.md
+      - Probability and Statistics:
+        - Mathematics/ProbabilityAndStatistics/ProbabilityAndStatistics.md
+      - Discrete Mathematics:
+        - Mathematics/DiscreteMathematics/DiscreteMathematics.md
+      - Linear Algebra: 
+        - Mathematics/LinearAlgebra/LinearAlgebra.md
+        - Mathematics/LinearAlgebra/LinearAlgebra2.md
+    - Physics: 
+      - Classical Mechanics:
+        - Physics/ClassicalMechanics/ClassicalMechanics.md
+        - Physics/ClassicalMechanics/ClassicalMechanics2.md
+      - Electromagnetism:
+        - Physics/Electromagnetism/Electromagnetism.md
+        - Physics/Electromagnetism/Electromagnetism2.md
+      - Quantum Mechanics:
+        - Physics/QuantumMechanics/QuantumMechanics.md
+        - Physics/QuantumMechanics/QuantumMechanics2.md
+      - Statistical Mechanics:
+        - Physics/StatisticalMechanics/StatisticalMechanics.md
+        - Physics/StatisticalMechanics/StatisticalMechanics2.md
