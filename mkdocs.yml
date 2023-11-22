@@ -55,8 +55,6 @@ plugins:
                 setup_commands:
                     - import pytkdocs_tweaks
                     - pytkdocs_tweaks.main()
-                    - import jaxtyping
-                    - jaxtyping.set_array_name_format("array")
 
                 optional:
                     inherited_members: true  # Allow looking up inherited methods
