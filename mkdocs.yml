@@ -10,7 +10,6 @@ theme:
         - navigation  # Sections are included in the navigation on the left.
         - toc  # Table of contents is integrated on the left; does not appear separately on the right.
         - header.autohide  # header disappears as you scroll
-        - navigation.expand
     palette:
         # Light mode / dark mode
         # We deliberately don't automatically use `media` to check a user's preferences. We default to light mode as
@@ -71,7 +70,7 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-    - Home: index.md
+    - Home: index.html
     - Mathematics: 
       - Analysis:
         - Mathematics/Calculus/Calculus.md
@@ -95,3 +94,8 @@ nav:
       - Statistical Mechanics:
         - Physics/StatisticalMechanics/StatisticalMechanics.md
         - Physics/StatisticalMechanics/StatisticalMechanics2.md
+    - Computing:
+      - Hardware:
+        - Computing/Hardware/Hardware.md
+      - Algorithm:
+        - Computing/Algorithm/Algorithm.md

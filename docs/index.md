@@ -1,2 +1,3 @@
-# Training guide for physicts
+# Training guide for physicists
+
 
