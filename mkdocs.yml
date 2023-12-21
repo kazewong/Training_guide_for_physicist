@@ -70,7 +70,7 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-    - Home: index.html
+    - Home: index.md
     - Mathematics: 
       - Analysis:
         - Mathematics/Calculus/Calculus.md
@@ -83,19 +83,30 @@ nav:
         - Mathematics/LinearAlgebra/LinearAlgebra2.md
     - Physics: 
       - Classical Mechanics:
-        - Physics/ClassicalMechanics/ClassicalMechanics.md
-        - Physics/ClassicalMechanics/ClassicalMechanics2.md
+        - Physics/ClassicalMechanics/Intro.md
       - Electromagnetism:
-        - Physics/Electromagnetism/Electromagnetism.md
-        - Physics/Electromagnetism/Electromagnetism2.md
+        - Physics/Electromagnetism/intro.md
       - Quantum Mechanics:
-        - Physics/QuantumMechanics/QuantumMechanics.md
-        - Physics/QuantumMechanics/QuantumMechanics2.md
+        - Physics/QuantumMechanics/intro.md
       - Statistical Mechanics:
-        - Physics/StatisticalMechanics/StatisticalMechanics.md
-        - Physics/StatisticalMechanics/StatisticalMechanics2.md
-    - Computing:
+        - Physics/StatisticalMechanics/intro.md
+      - General Relativity:
+        - Physics/GeneralRelativity/intro.md
+      - Quantum Field Theory:
+        - Physics/QuantumFieldTheory/intro.md
+        
+
+    - Mathematics: 
+      - Analysis:
+        - Mathematics/Calculus/intro.md
+      - Probability and Statistics:
+        - Mathematics/ProbabilityAndStatistics/intro.md
+      - Discrete Mathematics:
+        - Mathematics/DiscreteMathematics/intro.md
+      - Linear Algebra: 
+        - Mathematics/LinearAlgebra/intro.md
+    - Computating:
       - Hardware:
-        - Computing/Hardware/Hardware.md
-      - Algorithm:
-        - Computing/Algorithm/Algorithm.md
+        - Computating/Hardware/intro.md
+      - Distributed Computing:
+        - Computating/DistributedComputing/intro.md
